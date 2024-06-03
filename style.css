@@ -18,8 +18,12 @@ h1 {
 h2 {
   font-family: "Manrope", sans-serif;
   font-size: 40px;
-  color: #576cc9;
+  color: #0c0c0c;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  background-color: #e1e0e6;
+  opacity: 0.5;
   margin: 40px 0px 40px 0px;
+  padding: 10px;
   text-align: center;
 }
 p {
@@ -44,7 +48,7 @@ footer {
   opacity: 0.5;
 }
 .img_github {
-  width: 80px;
+  width: 90px;
   height: 60px;
   background: none;
 }
@@ -54,15 +58,15 @@ footer {
 }
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 .lien_cv {
   color: #ffffff;
   font-size: 1.5em;
   text-decoration: none;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   font-family: "Manrope", sans-serif;
-  font-weight: 500;
   border: solid 2px #181717;
   border-radius: 10px;
   padding: 5px 10px 5px 10px;
