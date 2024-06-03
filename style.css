@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 1em;
+  background-image: url("images/electronique.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a {
+  color: #242424;
+  font-size: 1em;
+  text-decoration: none;
+  font-family: "Manrope", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5em;
+  color: #ffffff;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5); /* Ajuste les valeurs de l'ombre */
+  margin-left: 10px;
+  padding-bottom: 10px;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5em;
+  color: #3b93d2;
+  margin: 50px 0px 50px 0px;
+}
+p {
+  font-family: "Manrope", sans-serif;
+  font-size: 1.0em;
+  margin: 10px 0px 10px 0px;
+  text-align: justify;
+  font-weight: 380;
+}
+.monparcours {
+  font-family: "Manrope", sans-serif;
+  font-size: 8px;
+  color: #576cc9;
+  margin: 10px 0px 10px 0px;
+}
+
+header,
+footer {  
+    background:linear-gradient( to right, #6156c5, #5fc556);
+}
+
+.opacity {
+  opacity: 0.5;
+}
+.img_linkedin {
+  width: 70px;
+  height: 70px;
+  margin: 0px 20px 0px 50px;
+}
+.img_linkedin:hover {
+  opacity: 0.5;
+}
+.border_paragraphe {
+  padding: 10px 20px 10px 10px;
+  background-color: rgb(153, 161, 161);
+  background: opacity 0.8;
+  border-radius: 10px;
+  line-height: 1.5;
+}
+.page_d-accueil {
+  width: 50%;
+  margin: auto;
+}
