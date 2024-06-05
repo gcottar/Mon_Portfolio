@@ -107,7 +107,7 @@ nav {
 }
 .contact {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   color: #4d0551;
   align-items: center;
   padding: 10px 0px 10px 0px ;
@@ -115,6 +115,7 @@ nav {
 .contact_moi {
   font-family: "Manrope", sans-serif;
   font-size: 1.5em;
+  text-align: center;
   text-decoration: none;
   color: #0c0c0c;
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
@@ -125,7 +126,7 @@ nav {
 em {
   font-family: "Manrope", sans-serif;
   font-style: normal;
-  font-size: 1em;
+  font-size: 1.1em;
   color: #c9c0c0;
 }
 .logo_pied-page {
@@ -133,5 +134,5 @@ em {
   justify-content: space-evenly;
   align-items: center;
   margin: auto;
-  padding: 20px 0px 40px 0px;
+  padding: 10px 0px 10px 0px;
 }
