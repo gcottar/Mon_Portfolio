@@ -136,3 +136,20 @@ em {
   margin: auto;
   padding: 10px 0px 10px 0px;
 }
+.mail {
+  width: 40px;
+  height: 40px;
+}
+.tel {
+  width: 40px;
+  height: 40px;
+}
+.adresse {
+  width: 50px;
+  height: 40px;
+}
+span {
+  font-family: "Manrope", sans-serif;
+  font-size: 1em;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+} 
