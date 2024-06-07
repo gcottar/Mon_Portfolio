@@ -166,3 +166,14 @@ span {
   font-size: 1em;
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
 } 
+.hautdepage {
+  font-family: "Manrope", sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+}
+.hautdepage:hover {
+opacity: 0.5
+}
+.copyright {
+  margin-top: 5px;
+}
