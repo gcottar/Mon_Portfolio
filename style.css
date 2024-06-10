@@ -185,3 +185,14 @@ opacity: 0.5
   margin: 15px;
   padding-bottom: 10px;;
 }
+#typed-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5em;
+  background-image: linear-gradient(to bottom, #efedf4, #60b51b);
+  background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  margin-left: 20px;
+  padding-bottom: 15px;
+  white-space: pre; /* pour préserver les espaces */
+}
