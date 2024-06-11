@@ -2,7 +2,24 @@
   margin: 0;
 }
 .arriere_plan {
-  background-image: url("images/nasa.jpg");
+  animation: backgroundChange 30s infinite;
+}
+
+@keyframes backgroundChange {
+  0% {
+    background-image: url('images/fond_ia.jpg');
+  }
+  35% {
+    background-image: url('images/nasa.jpg');
+  }
+  68% {
+    background-image: url('images/techno.jpg');
+  }
+  100% {
+    background-image: url('images/fond_ia.jpg');
+  }
+}
+.arriere_plan {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
